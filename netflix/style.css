@@ -1,0 +1,176 @@
+/* Universal tags */
+* {
+  margin: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+/*Global*/
+:root {
+  /*Font Size*/
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-samall: 16px;
+  --font-micro: 14px;
+
+  /*Font Weigth*/
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  margin: 8px 0;
+}
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  margin: 8px 0;
+}
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  margin: 8px 0;
+}
+p {
+  font-size: var(--font-samall);
+  font-weight: var(--weight-regular);
+  margin: 4px 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar__logo a img {
+  width: 150px;
+  height: 50px;
+}
+
+.navbar__settin {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__setting button {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(229, 8, 21);
+  color: white;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.navbar__setting select {
+  width: 60px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.home__large {
+  text-align: center;
+}
+
+.home__small {
+  margin-bottom: 30px;
+}
+
+.home__email {
+  display: flex;
+  align-items: center;
+}
+
+.home__email input {
+  width: 450px;
+  height: 50px;
+  font-size: var(--font-regular);
+}
+
+.home__email-button {
+  background-color: rgb(229, 8, 21);
+  height: 57px;
+  width: 150px;
+  color: white;
+  font-size: var(--font-medium);
+}
+
+#main-one {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+#main-two {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+#main-three {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+#main-four {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+#question {
+  margin-top: 100px;
+  width: 60%;
+  margin: auto;
+}
+
+.question__title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.question__description {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(48, 48, 48);
+}
